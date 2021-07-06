@@ -36,7 +36,7 @@
           haskellPackages.ormolu
           haskellPackages.pointfree
           hlint
-          idris2
+          idris # TODO: idris2
           gitAndTools.pre-commit
           myEmacs
           nixpkgs-fmt

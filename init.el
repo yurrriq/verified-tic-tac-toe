@@ -43,8 +43,9 @@
   :config (global-hl-todo-mode t))
 
 (use-package idris-mode
-  :config
-  (setq idris-interpreter-path "idris2"))
+  ;; :config
+  ;; (setq idris-interpreter-path "idris2")
+  )
 
 (use-package lsp-mode
   :hook ((haskell-mode . lsp-deferred))
